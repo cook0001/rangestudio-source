@@ -1,5 +1,7 @@
 # RangeStudio
 
+[![License](https://img.shields.io/badge/license-Proprietary%20Freeware-blue.svg)](LICENSE)
+
 > **Modern Exterior Ballistics, Precision Trajectory Engine & Optical Reticle Simulator**
 
 Part of the ArmoryVault precision ballistics and cartridge development suite:
@@ -55,3 +57,25 @@ RangeStudio uses the open, structured JSON format with MIME type `application/vn
 ```
 
 Natively ingests `.loadbench` / `.ldb` recipes from LoadBench and `.wildcat` / `.wcs` profiles from Wildcat Studio.
+
+---
+
+## Precision Firearms Ecosystem
+
+RangeStudio is engineered as part of the unified precision ballistics and firearms management ecosystem:
+
+- **[ArmsTrader (armstrader.store)](https://armstrader.store)** — Free web tools and digital utilities suite for firearm owners (Firearm Bill of Sale Generator, Nationwide FFL Finder, Shooting Range Locator, and 50-State Gun Laws Directory). *Note: ArmsTrader is NOT a marketplace, broker, or dealer.*
+- **[ArmoryVault](https://github.com/cook0001/armoryvault)** — High-performance desktop firearm inventory, ATF compliance & vault logistics suite.
+- **[ArmoryVault Companion](https://github.com/cook0001/armoryvault-companion)** — Offline mobile firearm barcode scanner and encrypted LAN sync for Android.
+- **[Wildcat Studio](https://github.com/cook0001/wildcat-studio)** — High-performance cartridge CAD, chamber reamer modeling & internal cutaway telemetry suite.
+- **[LoadBench Studio](https://github.com/cook0001/loadbench)** — Industrial interior ballistics simulation, propellant combustion & chamber pressure modeling suite.
+
+---
+
+## License
+
+RangeStudio is proprietary software provided free of charge for personal, non-commercial exterior ballistic modeling and trajectory calculation under the [RangeStudio End User License Agreement](LICENSE). All Rights Reserved. Reverse engineering, decompilation, unauthorized redistribution, or commercial use without prior written authorization is prohibited.
+
+---
+
+*Copyright © 2026 RangeStudio. All rights reserved.*

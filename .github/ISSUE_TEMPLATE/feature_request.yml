@@ -1,0 +1,32 @@
+name: Feature Request
+description: Propose an idea, reticle profile, or aerodynamic feature for RangeStudio
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea or reticle request to improve **RangeStudio**? We welcome suggestions from competitive precision shooters, reloaders, and hunters!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement / Use Case
+      description: Is your feature request related to a specific shooting discipline or field calculation?
+      placeholder: "e.g. When shooting PRS matches in steep terrain, I need..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: Describe what you would like to happen and how the interface or trajectory solver should behave.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative solutions or workarounds you have considered?

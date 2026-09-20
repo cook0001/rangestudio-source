@@ -2,10 +2,14 @@
   "name": "range-studio",
   "private": true,
   "version": "1.0.0",
+  "description": "RangeStudio — Precision Exterior Ballistics, 4th-Order Runge-Kutta Trajectory Engine & Optical Reticle Simulator",
+  "license": "SEE LICENSE IN LICENSE",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "typecheck": "tsc --noEmit",
+    "qc": "npm run build",
     "preview": "vite preview"
   },
   "dependencies": {

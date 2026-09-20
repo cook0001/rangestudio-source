@@ -8,6 +8,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Proprietary Freeware License & Distribution Alignment (`package.json`, `README.md`, `LICENSE`)**:
+  - Formalized proprietary free-to-use licensing model under the RangeStudio End User License Agreement.
+  - Updated `package.json` to `"license": "SEE LICENSE IN LICENSE"`.
+  - Added Proprietary Freeware badge and comprehensive License section to `README.md`.
+  - Established dedicated public binary release repository at [`cook0001/rangestudio`](https://github.com/cook0001/rangestudio) for pre-compiled standalone installers, SHA-256 checksums, and CI release verification.
+  - Clarified in documentation that `armstrader.store` is a free digital utilities suite for firearm owners, not a marketplace.
+  - Aligned binary release distribution references to `https://armstrader.store`.
 - **4th-Order Runge-Kutta (RK4) Point-Mass Trajectory Solver (`rk4Solver.ts`)**:
   - High-precision numerical point-mass ODE integration at 1 ms timesteps ($dt = 0.001\text{ s}$).
   - G1 and G7 standard supersonic, transonic, and subsonic drag function tables with dynamic Mach interpolation.
